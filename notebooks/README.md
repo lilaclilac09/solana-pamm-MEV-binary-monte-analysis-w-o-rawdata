@@ -59,8 +59,7 @@ notebooks/
 ## 📚 Documentation
 
 - Each folder has a `notes.md` file with detailed documentation
-- See `CODE_ORGANIZATION_PLAN.md` in the root directory for the complete methodology
-- See `docs/methodology/mev_case_studies.md` for MEV case study references
+
 
 ## 🔗 Key Code Locations
 
