@@ -16,7 +16,6 @@ notebooks/
 ├── 06_pool_analysis/              # General pool MEV analysis
 ├── 07_ml_classification/          # ML classification for MEV bots
 ├── 08_monte_carlo_risk/           # Monte Carlo risk simulation
-└── 09_aggregator_mev_analysis/     # Aggregator + MEV classification
 ```
 
 ## 📊 Execution Order
@@ -55,7 +54,7 @@ notebooks/
 | `06_pool_analysis` | General pool analysis | `pool_density_analysis.csv` |
 | `07_ml_classification` | ML bot classification | `ml_model_performance.csv`, `feature_importance.csv` |
 | `08_monte_carlo_risk` | Risk simulation | `monte_carlo_by_*.csv` |
-| `09_aggregator_mev_analysis` | Aggregator + MEV classification | `ml_model_performance.csv` |
+
 
 ## 📚 Documentation
 
