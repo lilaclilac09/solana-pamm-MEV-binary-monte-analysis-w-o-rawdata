@@ -1,11 +1,13 @@
 # Complete Imbalance Handling Implementation
 
+Verification status (2026-11-22 audit): this is an implementation/change log, not proof of a successful rerun or measured improvement. Raw inputs and a reproducible environment are absent from this export. The targets below are unvalidated; no recall or accuracy improvement is claimed by this audit.
+
 ## All Modifications Applied
 
 ### 1. Lowered MEV Detection Thresholds
 - **Changed**: `mev_score > 0.3` → `mev_score > 0.1` (3x lower threshold)
 - **Changed**: `cluster_ratio > 0.3` → `cluster_ratio > 0.2` (for sandwich patterns)
-- **Impact**: Will capture ~3x more MEV cases in classification
+- **Impact**: Lower threshold; the change in detected case count has not been measured in this audit.
 
 ### 2. Comprehensive Class Imbalance Assessment
 - **New Cell**: Detailed class distribution analysis
@@ -54,7 +56,7 @@
     - MEV class recall ± std dev with 95% CI
   - Stability assessment and recommendations
 
-## Expected Results After Running
+## Unvalidated Targets (not observed rerun results)
 
 ### Before Fixes:
 - MEV recall: 0 (model ignores MEV class)
